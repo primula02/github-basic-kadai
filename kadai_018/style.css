@@ -1,38 +1,57 @@
 #top  {
   width: 800px;
   background-color:  #dcc9f4;  
-  margin: 20px 20px; 
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto; 
+  text-align: center;
 }
 
 .top-child  {
+  display: inline;
   width: 20%;
   background-color: #ffd9df;    
 }
+
 #middle {
   width: 800px;
   height: 800px;
-  margin: 20px 20px;
+  margin: 20px auto;
   background-color: #ffd9df;
 }
 
 #middle-child01 {
   display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 100px;
   width: 200px;
   height: 200px;
   background-color: #87ceeb;
 }
+
 #middle-child02 {
   display: inline-block;
+  position: relative;
+  top: 300px;
+  left: 300px;
   width: 200px;
   height: 200px;
-  background-color: #87ceeb;
+ background-color: #87ceeb;
 }
+
 #middle-child03 {
   display: inline-block;
+  position: relative;
+  top: 500px;
+  left: 500px;
   width: 200px;
   height: 200px;
   background-color: #87ceeb;
 }
+
+
+
+
+
+
+
 
