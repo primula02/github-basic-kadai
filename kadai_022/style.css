@@ -68,13 +68,18 @@ h2::before {
   text-align: center;
  }
 
- a {
-    background-color: rgb(255, 255, 255);
-     #sns-footer > a:visited {
-      color:rgb(193, 234, 251);
-     #sns-footer > a:hover {
-      color:rgb(245, 178, 168);
-   }
+ footer a {
+  color: rgb(255, 255, 255);
+ }
+
+ footer a:visited {
+  color: rgb(193, 234, 251); 
+ }
+
+ footer a:hover {
+  color: rgb(245, 178, 168);
+ }
+
 
 /* レスポンシブ対応　 */
 @media screen and (max-width: 768px) {
