@@ -2,7 +2,7 @@ h1,p,body {
   margin: 0;
 }
 
-.p,a {
+p,a {
   font-size: 20px;
 }
 
@@ -10,7 +10,7 @@ h1,p,body {
 header {
   margin-bottom: 20px;
   background-color: rgb(244, 79, 79);
-  text-align:  center;  
+  text-align:  center;
 }
 
 h1 {
@@ -30,11 +30,11 @@ main {
 
 /* コンテンツ */
 .contents {
-  border: 3px solid #rgb(238, 204, 204);
+  border: 3px solid rgb(238, 204, 204);
   flex-basis: 25%;
   padding: 10px 15px 10px 15px;
   margin: 20px 0;
-  text-align: center; 
+  text-align: center;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
 }
 
 h2::before {
-  content: \02022;
+  content: "●";
    color: rgb(239, 111, 139);
 }
 
@@ -73,7 +73,7 @@ h2::before {
  }
 
  footer a:visited {
-  color: rgb(193, 234, 251); 
+  color: rgb(193, 234, 251);
  }
 
  footer a:hover {
@@ -94,36 +94,3 @@ h2::before {
     display: block;
   }
 }
-
- 
-
-
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
